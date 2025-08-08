@@ -1,0 +1,111 @@
+#barback {
+    display: block;
+    width: 150px;
+}
+#status{
+    transition: 0.6s ease-out;
+    text-align: center;
+    position: absolute;
+    padding: auto;
+    width: 100%;
+    overflow: hidden; 
+}
+#barfront {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+}
+.kill {
+    width: 90%;
+    border: solid black 2px;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: black;
+}
+.kill:hover {
+    transition: 0.5s ease-out;
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+#qblo {
+    width: 70%;
+    border: black solid 3px;
+    background-color: #5A6652;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+#angr {
+    background-color: #5A6652;
+    border: solid black 10px;
+    border-radius: 5px;
+}
+#anline {
+    width:90%;
+    border: dashed black 2px;
+}
+@media(min-width: 900px){
+#qblo {
+    width: 600px;
+}
+}
+@media(min-width: 900px){
+#angr {
+    width: 495px;
+}
+}
+@media(max-width: 900px) and (min-width: 700px){
+#angr {
+    width: 55%;
+}
+}
+@media(max-width: 700px) and (min-width: 600px){
+#angr {
+    width: 65%;
+}
+}
+@media(max-width: 600px) and (min-width: 500px){
+#angr {
+    width: 75%;
+}
+#qblo {
+    width: 75%;
+    }
+}
+@media(max-width: 500px) and (min-width: 400px){
+.kill {
+    font-size: 18px;
+    }
+#angr {
+    width: 85%;
+}
+#qblo {
+    width: 80%;
+    }
+}
+@media(max-width: 400px){
+.kill {
+    font-size: 17px;
+    }
+#angr {
+    width: 95%;
+}
+#qblo {
+    width: 85%;
+    font-size: 23px;
+    }
+}
+
+@media(max-width: 300px){ 
+    .kill {
+    font-size: 15px;
+    }
+    #qblo {
+    width: 90%;
+    font-size: 21px;
+    }
+}

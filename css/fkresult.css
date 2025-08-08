@@ -1,0 +1,30 @@
+#fkresult {
+    width: 75%;
+    border: black solid 3px;
+    background-color: #5A6652;
+    text-align: center;
+    border-radius: 10px;
+}
+#fkresult h1 {
+    font-size: 40px;
+}
+@media(min-width: 950px) {
+    #fkresult{
+    width: 713px;
+    }
+}
+#fkp {
+    font-size: 20px;
+}
+#fkimg {
+    border-radius: 15px;
+}
+#fkname {
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+@media(max-width: 576px) {
+    #fkresult{
+        width: 85%;
+    }
+}

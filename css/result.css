@@ -1,0 +1,101 @@
+#result {
+    border: black solid 3px;
+    background-color: #5A6652;
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#result h1 {
+    font-size: 40px;
+}
+@media(min-width: 950px) {
+    #result{
+    width: 713px;
+    }
+}
+#rep {
+    font-size: 20px;
+}
+#reimg {
+    border-radius: 15px;
+}
+#rename {
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+#relevel {
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+.lb {
+    display: inline;
+}
+.sleepimg {
+    width: 100%;
+    border-radius: 50%;
+}
+.sleep {
+    width: 15%;
+    background-color: transparent;
+    border: 0;
+    font-size: 12px;
+}
+.tongsin {
+    transition: 0.2s ease-out;
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 1px 4px;
+    font-size: 16px
+}
+.tongsin:hover {
+    box-shadow: 0.5px 1px;
+    background-color: whitesmoke;
+}
+.tongsinimg {
+   width: 40px;
+}
+#tongsina {
+    display: block;
+}
+#tongsinb {
+    display: none;
+}
+#boan {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 10px;
+    width: 60%;
+    text-align: right;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,;
+}
+@media(max-width: 450px){
+    .tongsinimg {
+        width: 30px;
+    }
+    #tongsina {
+        display: none;
+    }
+    #tongsinb {
+        display: block;
+        margin: 7.5px;
+    }
+}
+@media(min-width: 600px){
+    .tongsin {
+        width: 300px;
+    }
+    #boan {
+        width: 300px;
+    }
+}
+@media(max-width: 576px) {
+    #result{
+        width: 85%;
+    }
+    #boan {
+        width: 70%;
+    }
+}

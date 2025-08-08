@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>군BTI</title>
+    <meta name="author" content="DaGa">
+    <meta name="keywords" content="군BTI">
+    <meta name="description" content="군생활 마인드 유형 평가">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="군BTI">
+    <meta property="og:description" content="군생활 마인드 유형 평가">
+    <meta property="og:image" content="img/hoguk.jpg">
+    <meta property="og:url" content="https://armbti.netlify.app/">
+    <meta name="google-site-verification" content="mqNs0CFfBGJaDoPBm4OdgLku_esaDkQOKBbZATo1_TE" />
+    <meta name="naver-site-verification" content="01461d422d4ae257e39ada218ec298ce2ccf8d4f" />
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6452478499263456"
+     crossorigin="anonymous"></script>
+    
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/qna.css">
+    <link rel="stylesheet" href="css/fkresult.css">
+    <link rel="stylesheet" href="css/result.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+  integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+    <script>
+        Kakao.init('ccc52ca42af48445ebf60d05212c764e');
+        Kakao.isInitialized();
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-96ZH8ES1F3');
+    </script>
+    
+</head>
+<body style="background-image: url(img/background.png);">
+    <section id="main" class="mx-auto my-5 py-4 animate__animated animate__backInRight">
+            <h1>군BTI</h1>
+            <img src="img/hoguk.jpg" id="mim" class="mx-auto my-4 col-8 img-fluid" alt="논산 훈련소"><br>
+                <button type="button" id='sbut' class="my-3 py-1" onclick="js:start()">드 가 자</button>
+                <p class="m-3">군생활 마인드 유형 평가.</p>
+                <p id='tsm'>*본 평가는 2020년대의 군대상을 담고 있습니다.</p>
+    </section>
+    <section id="qna">
+    <div class="center">
+     <div id="status"><img src="img/anstarfront.png" id="barfront" class="mx-auto img-fluid"></div></div><img src="img/anstarback.png" id="barback" class="mx-auto my-auto mt-3 col-7 img-fluid" >
+      <div class="blo my-5">
+       <div id="qblo" class="p-3 my-5 mx-auto"></div>
+       <div id="angr" class="mx-auto py-3">
+          <div id="anline" class="mx-auto my-1">
+           <div id="anblo"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="result" class="mx-auto mt-5 py-4">
+        <h1>결과</h1>
+        <img id="reimg" class="mx-auto my-4 col-7 img-fluid" alt="resultimg">
+        <h2 class="mb-3 mx-3">당신은 <span id="rename"></span><span id="relevel"></span> 입니다.</h2>
+        <div id="rep" class="my-4 mx-3"></div>
+        <button type="button" class="lb btn btn-light my-3 mx-2" onclick="window.location.reload()">다시하기</button>
+        <button type="button" class="lb btn btn-warning my-3 mx-2" onclick="js:kakaosh()">공유하기</button>
+        <br>
+        <div id="boan" class="ema mx-auto mt-3 mb-1">\ 통신보안! /</div>
+        <button type="button" class="tongsin mb-4" onclick="window.open('https://web.tongsinboan.com/division/search?utm_source=mbti&utm_medium=banner&utm_dt=20230829')">
+            <table>
+                <tr>
+                    <td width="90%"><span id="tongsina">통신보안 웹에서 부대평가 확인하기</span><span id="tongsinb">부대 리뷰 보기</span></td>
+                    <td width="10%"><img class="tongsinimg mx-2 my-1" src="img/tongsin.png" alt="tongsin"></td>
+                </tr>
+            </table>
+        </button>
+        <p class="ema mt-4">문의 : inho1019@gmail.com</p>
+        <p class="ema mx-3 mt-4">"쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받을수 있습니다."</p>
+    </section>
+    
+    <section id="fkresult" class="mx-auto my-5 py-4">
+        <h1>결과</h1>
+        <img id="fkimg" class="mx-auto my-4 col-7 img-fluid" alt="군대갔다와라">
+        <h2 class="mb-3 mx-3">당신은 <span id="fkname"></span> 입니다.</h2>
+        <div id="fkp" class="my-4 mx-3"></div>
+        <button type="button" class="btn btn-danger my-3" onclick="window.location.reload()">다시해보기</button>
+    </section>
+    <ins class="kakao_ad_area mx-auto" style="display:block;"
+    data-ad-unit = "DAN-wWaUnlD0TbWQ0fzV"
+    data-ad-width = "250"
+    data-ad-height = "250"></ins><br><br>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <div id="cpad">
+        <script src="https://ads-partners.coupang.com/g.js"></script>
+        <script>
+            new PartnersCoupang.G({"id":627886,"template":"carousel","trackingCode":"AF3771939","width":"100%","height":"60"});
+        </script>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+    <script src="js/data.js" charset="utf-8"></script>
+    <script src="js/resultdata.js" charset="utf-8"></script>
+    <script src="js/fkresultdata.js" charset="utf-8"></script>
+    <script src="js/share.js" charset="utf-8"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-96ZH8ES1F3"></script>
+</body>
+</html>

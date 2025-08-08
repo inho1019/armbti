@@ -1,0 +1,45 @@
+#main {
+    background-color: #5A6652;
+    width: 75%;
+    text-align: center;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+#main h1{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px darkslategray;
+}
+#main p{
+    font-size: 25px;
+}
+@media(min-width: 950px) {
+    #main{
+    width: 713px;
+    }
+}
+#sbut {
+    transition: 0.2s ease-out;
+    font-family: 'Gothic A1', sans-serif;
+    width: 40%;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+    border:0.5px solid black;
+    box-shadow: 1px 3.5px;
+    color: black;
+    font-size: 17px;
+}
+#sbut:hover {
+    box-shadow: 0.2px 1px;
+}
+#mim {
+    border-radius: 10%;
+}
+#main #tsm {
+    font-size: 15px;
+}
+@media(max-width: 576px) {
+    #main{
+    width: 85%;
+    }
+}
